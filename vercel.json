@@ -1,24 +1,11 @@
 {
   "version": 2,
-  "name": "business-acquisition-tracker",
-  "builds": [
+  "name": "buyingabusiness",
+  "public": true,
+  "rewrites": [
     {
-      "src": "index.html",
-      "use": "@vercel/static"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-  "functions": {
-    "app.py": {
-      "runtime": "python3.9"
-    }
-  },
-  "env": {
-    "PYTHON_VERSION": "3.9"
-  }
+  ]
 }

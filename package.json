@@ -1,0 +1,17 @@
+{
+  "name": "business-acquisition-tracker",
+  "version": "1.0.0",
+  "description": "Daily business acquisition tracker with beautiful dashboard",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pradhakr1984/buyingbusiness.git"
+  },
+  "keywords": ["business", "acquisition", "tracker", "dashboard"],
+  "author": "Prashant Radhakrishnan",
+  "license": "MIT"
+}
