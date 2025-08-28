@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# API Keys (never commit these!)
+*api_key*
+*token*
+*.key
+
+# Log files
+*.log
+business_scraper.log
+scheduler.log
+daily_scan_*.log
+
+# Data files (don't commit real business data)
+business_listings_*.json
+!sample_business_listings.json
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Node modules (if using any JS tools)
+node_modules/
+
+# Vercel
+.vercel
